@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+html{
+    margin: 0;
+}
+
+h1{
+    width: 100%;
+    background: blue;
+    color : white;
+    margin: 0;
+    text-align: center;
+}
+
+.bodyPage{
+    width: 98%;
+    margin: 1% 1% 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bandBloc, #coversBloc, #albumsBloc, #membersBloc, #contactsBloc {
+    background: green;
+    width: 80%;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+#bandBloc img{
+    margin-top: 2% ;
+    margin-bottom: 5% ;
+}
+
+#buttonsBar{
+    width: 100%;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#buttonsBar span{
+    width: 16.67%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.aCover, .album{
+    width: 100%;
+    background: green;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.aAlbum{
+    width: 100%;
+    border: 1px solid white;
+}
+
+.anAlbum1{
+    width: 15%;
+    border: 1px solid white;
+
+}
+
+.anAlbum2{
+    width: 10%;
+    border: 1px solid white;
+
+}
+
+.anAlbum3{
+    width: 40%;
+    border: 1px solid white;
+
+}
+
+.anAlbum4{
+    width: 15%;
+    border: 1px solid white;
+
+}
+
+.anAlbum5{
+    width: 20%;
+    border: 1px solid white;
+
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aMember3{
+    text-align: justify;
+}
+
+.aMember4{
+    margin-bottom: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10%;
+}
+
+.gb{
+    font-weight: bold;
+}
+
+.albumCover{
+    width: 15%;
+    text-align: center;
+}
+.albumName{
+    width: 85%;
+}
+
+.member span{
+    margin-bottom: 5%;
+}
+
+.albumTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aCover1{
+    width: 10%;
+    border: 1px solid white;
+}
+
+.aCover2{
+    width: 35%;
+    border: 1px solid white;
+}
+
+.aCover3{
+    width: 35%;
+    border: 1px solid white;
+}
+
+.aCover4{
+    width: 20%;
+    border: 1px solid white;
+}
+
+footer{
+    background: gold;
+    margin-top: 2%;
+    display: none;
+}
+
