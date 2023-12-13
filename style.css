@@ -29,7 +29,6 @@ h1{
 #bandBloc, #coversBloc, #albumsBloc, #membersBloc, #contactsBloc {
     background: green;
     width: 80%;
-    display: flex;
     text-align: justify;
     flex-direction: column;
     align-items: center;
@@ -38,6 +37,15 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+}
+
+#bandBloc{
+    display: flex;
+    font-weight: bold;
+}
+
+#coversBloc, #albumsBloc, #membersBloc, #contactsBloc {
+    display: none;
 }
 
 
@@ -55,7 +63,7 @@ h1{
 }
 
 #buttonsBar span{
-    width: 16.67%;
+    width: 20%;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -171,6 +179,39 @@ h1{
 footer{
     background: gold;
     margin-top: 2%;
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.aContact{
+    height: 100px;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 1% 0 1% 0;
+    cursor: pointer;
+}
+
+.c1{
+    background-image: url("pics/facebook.png");
+}
+.c2{
+    background-image: url("pics/instagram.png");
+}
+.c3{
+    background-image: url("pics/youtube.png");
+}
+.c4{
+    background-image: url("pics/tiktok.png");
+}
+.c5{
+    background-image: url("pics/mail.png");
+}
