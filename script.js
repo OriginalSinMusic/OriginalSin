@@ -3,11 +3,44 @@ let coversBtn = document.getElementById('coversBtn');
 let albumsBtn = document.getElementById('albumsBtn');
 let membersBtn = document.getElementById('membersBtn');
 let translateBtn = document.getElementById('translateBtn');
+let language = "Français";
+let burgerBtn = document.getElementById('burgerBtn');
+let burgerIs = 0;
 
 let bandBloc = document.getElementById('bandBloc');
 let coversBloc = document.getElementById('coversBloc');
 let albumsBloc = document.getElementById('albumsBloc');
 let membersBloc = document.getElementById('membersBloc');
+
+burgerBtn.addEventListener('click', function (){
+    if (burgerIs == 0){
+        bandBtn.style.display="flex";
+        coversBtn.style.display="flex";
+        albumsBtn.style.display="flex";
+        membersBtn.style.display="flex";
+        translateBtn.style.display="flex";
+        burgerIs=burgerIs+1;
+    } else {
+        bandBtn.style.display="none";
+        coversBtn.style.display="none";
+        albumsBtn.style.display="none";
+        membersBtn.style.display="none";
+        translateBtn.style.display="none";
+        burgerIs=burgerIs-1;
+    }
+})
+
+
+
+translateBtn.addEventListener('click', function (){
+    if (language == "Français"){
+        language="English";
+    } else {
+        language="Français";
+    }
+})
+
+bandBtn.style.fontWeight="bold";
 
 
 bandBtn.addEventListener('click', function (){
