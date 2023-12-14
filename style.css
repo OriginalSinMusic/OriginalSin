@@ -113,6 +113,12 @@ h2{
     border: 1px solid white;
 }
 
+.aCover1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .anAlbum1{
     width: 15%;
     display: flex;
@@ -195,22 +201,18 @@ h2{
 
 .aCover1{
     width: 10%;
-    border: 1px solid white;
 }
 
 .aCover2{
     width: 35%;
-    border: 1px solid white;
 }
 
 .aCover3{
     width: 35%;
-    border: 1px solid white;
 }
 
 .aCover4{
     width: 20%;
-    border: 1px solid white;
 }
 
 footer{
